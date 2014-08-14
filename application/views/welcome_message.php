@@ -7,9 +7,10 @@
     
      <!-- Required -->
     <link href="css/global-style.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="icon" href="images/favicon.png" type="image/png"><!-- LayerSlider stylesheet -->
-<link rel="stylesheet" href="css/layerslider.css" type="text/css">
-
+    <link rel="stylesheet" href="css/layerslider.css" type="text/css">
+    
 </head>
 <body>
 
@@ -946,7 +947,7 @@
 
 <!-- JavaScript -->
 <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
@@ -958,34 +959,34 @@
 <![endif]-->
 
 <!-- Plugins -->
-<script type="text/javascript" src="assets/hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
-<script type="text/javascript" src="assets/masonry/masonry.js"></script>
-<script type="text/javascript" src="assets/page-scroller/jquery.ui.totop.min.js"></script>
-<script type="text/javascript" src="assets/mixitup/jquery.mixitup.js"></script>
-<script type="text/javascript" src="assets/mixitup/jquery.mixitup.init.js"></script>
-<script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script type="text/javascript" src="assets/easy-pie-chart/jquery.easypiechart.js"></script>
-<script type="text/javascript" src="assets/waypoints/waypoints.min.js"></script>
-<script type="text/javascript" src="assets/sticky/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js"></script>
+<script type="text/javascript" src="js/masonry.js"></script>
+<script type="text/javascript" src="js/jquery.ui.totop.min.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.init.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
 <script type="text/javascript" src="js/jquery.wp.custom.js"></script>
 <script type="text/javascript" src="js/jquery.wp.switcher.js"></script>
-<script src="assets/layerslider/js/greensock.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/greensock.js" ></script>
  
 <!-- LayerSlider script files -->
-<script src="assets/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="assets/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script src="js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 <!-- Initializing the slider -->
 	<script>
-		jQuery("#layerslider").layerSlider({
-			pauseOnHover: true,
-			autoPlayVideos: false,
-			skinsPath: 'assets/layerslider/skins/',
-			responsive: false,
-			responsiveUnder: 1280,
-			layersContainer: 1280,
-			skin: 'borderlessdark3d',
-			hoverPrevNext: true,
-		});
+//		jQuery("#layerslider").layerSlider({
+//			pauseOnHover: true,
+//			autoPlayVideos: false,
+//			skinsPath: 'assets/layerslider/skins/',
+//			responsive: false,
+//			responsiveUnder: 1280,
+//			layersContainer: 1280,
+//			skin: 'borderlessdark3d',
+//			hoverPrevNext: true,
+//		});
 	</script>
 </body>
 </html>
