@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
      <!-- Required -->
-    <link href="css/global-style.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/global-style.css"  type="text/css" media="screen">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="icon" href="images/favicon.png" type="image/png"><!-- LayerSlider stylesheet -->
     <link rel="stylesheet" href="css/layerslider.css" type="text/css">
