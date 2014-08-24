@@ -13,7 +13,7 @@
                     </ul>
                  </div>
             </div>
-            
+            <?php /*
             <div class="col-md-3">
             	<div class="col">
                     <h4>Mailing list</h4>
@@ -42,15 +42,15 @@
                     <a href="#"><i class="fa fa-flickr"></i></a>
                 </div>
             </div>
-
+            */?>
              <div class="col-md-3">
              	<div class="col">
-                    <h4>About us</h4>
-                    <p>
+                    <h4>关于我们</h4>
+                    <!--p>
                     Boomerang Bootstrap Template is made with love and passion for your own business.
                     <br><br>
                     <a href="#" class="btn btn-two">Try it now!</a>
-                    </p>
+                    </p-->
                 </div>
             </div>
         </div>
@@ -59,9 +59,7 @@
         
         <div class="row">
         	<div class="col-lg-9 copyright">
-            	2013 © Web Pixels. All rights reserverd. 
-                <a href="#">Terms of use</a> | 
-                <a href="#">Privacy policy</a>
+            	<?=date('Y')?> © 
             </div>
             <div class="col-lg-3 footer-logo">
             	
@@ -101,17 +99,17 @@
 <script src="js/layerslider.transitions.js" type="text/javascript"></script>
 <script src="js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 <!-- Initializing the slider -->
-	<script>
-		jQuery("#layerslider").layerSlider({
-			pauseOnHover: true,
-			autoPlayVideos: false,
-			skinsPath: 'assets/layerslider/skins/',
-			responsive: false,
-			responsiveUnder: 1280,
-			layersContainer: 1280,
-			skin: 'borderlessdark3d',
-			hoverPrevNext: true,
-		});
-	</script>
+<script>
+jQuery("#layerslider").layerSlider({
+    pauseOnHover: true,
+    autoPlayVideos: false,
+    skinsPath: 'assets/layerslider/skins/',
+    responsive: false,
+    responsiveUnder: 1280,
+    layersContainer: 1280,
+    skin: 'borderlessdark3d',
+    hoverPrevNext: true,
+});
+</script>
 </body>
 </html>

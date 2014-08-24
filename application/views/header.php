@@ -83,8 +83,14 @@
                         </ul>
                 	</li>
                     <li class="dropdown">
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">美女</a>
+                	</li>    
+                    <li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">博客</a>
                 	</li>
+                    <?php /*<li class="dropdown">
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">商城</a>
+                	</li>    */?>
                     <li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">帮助中心</a>
                         <ul class="dropdown-menu">
