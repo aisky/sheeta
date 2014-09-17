@@ -4,12 +4,21 @@
  */
 class base extends CI_Model {
 
-    var $table   = '';
+    var $table = '';
+	var $field = 'id,time';
 
     function __construct()
     {
         parent::__construct();
     }
+	
+	/*
+	 * 获得数组形式的字段列表，供内部使用，不必重载
+	 */
+	function _field()
+	{
+		return array_flip( explode( ',', $this->field ) );
+	}
     
 	function set_table( $v )
 	{
@@ -50,7 +59,17 @@ class base extends CI_Model {
 
 	function add( $in )
 	{
+		$field = self::_field();
+
+		foreach( $in as $k => $v )
+		{
+			if (!isset($field[$k]))
+				unset($in[$k]);
+			else
+				$in[$k] = addslashes( $v );
+		}
 		
+		return $this->command($sql);
 	}
 	
 	function set( $in )
@@ -71,6 +90,11 @@ class base extends CI_Model {
 	function get_one()
 	{
 		
+	}
+	
+	function debug()
+	{
+		echo $this->db->sql;
 	}
 }
 ?>
