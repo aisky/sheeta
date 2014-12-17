@@ -40,7 +40,7 @@ class Winner extends CI_Controller {
                 $this->_save($arr);
 
                 echo '<hr>';
-                die;
+               // die;
             }
         }
 	}
@@ -93,7 +93,17 @@ class Winner extends CI_Controller {
     //过滤
     function _filter($content)
     {
-        return preg_replace('%<p style="text-align:center;"><img src=".+? /></p>%s', '', $content);
+        $filter = array(
+            '%<p style="text-align:center;"><img src=".+? /></p>%s' => '',
+            '%<a .+?>.+?</a>%s' => ''
+        );
+
+        foreach($filter as $k=>$v)
+        {
+            $content = preg_replace($k, $v, $content);
+        }
+
+        return $content;
     }
 
     //保存
